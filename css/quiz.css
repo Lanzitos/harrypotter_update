@@ -323,7 +323,7 @@ body {
 }
 
 /* Responsivo */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .feitiço-img {
     max-width: 60px;
   }
@@ -336,6 +336,9 @@ body {
   }
   .feitiço{
     display: none;
+  }
+  .h2{
+    font-size: 14px;
   }
 }
 
