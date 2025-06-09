@@ -331,10 +331,8 @@ body {
   .feitiço2 { right: 5px; top: 120px; }
   .feitiço3 { left: 5px; top: 200px; }
   .feitiço4 { right: 5px; top: 250px; }
-}
-
-@media(max-width: 768px){
-  #img_chapeu{
-    min-width: 360px;
+   #img_chapeu{
+    min-width: 360px; 
   }
 }
+
