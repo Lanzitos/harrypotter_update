@@ -334,11 +334,13 @@ body {
    #img_chapeu{
     min-width: 360px; 
   }
-  .feitiço{
-    display: none;
-  }
   .h2{
     font-size: 14px;
   }
+}
+@media (max-width: 1075px) {
+ .feitiço{
+  display: none; 
+ }
 }
 
