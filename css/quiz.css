@@ -18,12 +18,12 @@ body {
 
 }
 
-/* Estilo da div que centraliza a imagem */
+
 .centro {
   display: flex;
   justify-content: center;
   align-items: normal;
-  height: 100vh; /* ocupa a tela toda */
+  height: 100vh; 
   
 }
 .img_com_texto{
@@ -33,9 +33,7 @@ body {
 
 }
 
-/* Estilo da imagem */
-#img_chapeu {
-  
+#img_chapeu {  
   width: 360px;
   height: 360px;
  display: grid;
@@ -333,4 +331,10 @@ body {
   .feitiço2 { right: 5px; top: 120px; }
   .feitiço3 { left: 5px; top: 200px; }
   .feitiço4 { right: 5px; top: 250px; }
+}
+
+@media(max-width: 768px){
+  #img_chapeu{
+    min-width: 360px;
+  }
 }
