@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Henny+Penny&family=Poiret+One&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  flex-direction: column;
   }
 
   header{
     position: fixed;
-    z-index: 1000; 
+    z-index: 1000; /* para que ele fique em cima de tudo */
     display: flex;
     align-items: flex-start;
     justify-content: flex-start; 
@@ -29,14 +29,12 @@
     font-family: "Bigelow Rules", "serif";
 }
 
-#img_logo {
-  width: 160px;
-  top: 50px;
-  position: relative;
-  right: 480px;
-  margin-top: -90px;
-  padding: 5px;
-} 
+  .logo33{
+    width: 160px;
+    position: relative; 
+    top: -10px;
+    left: 20px;
+  } 
 
 h1{
   margin-top: 35px;
@@ -62,7 +60,6 @@ h2{
 
 body {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         min-height: 100vh;
@@ -70,12 +67,6 @@ body {
         background-size: cover;
         background-position: center;
       }
-
-main{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 form {
         width: 500px;        
@@ -95,36 +86,50 @@ form {
       }
 
 .input-container1 input {
-    position: relative;
-    border-radius: 40px;
-    width: 85%;
-    margin: 20px;
-    padding-left: 40px;
-    font-size: 15px
-    box-sizing border-box;
-    outline: none;
-    font-size: 20px;
-    padding: 10px 10px 10px 40px;
-}
+  position: relative;
+  border-radius: 40px;
+        width: 85%;
+        margin: 20px;
+        padding-left: 40px;
+        font-size: 15px
+        box-sizing border-box;
+        outline: none;
+        font-size: 20px;
+        padding: 10px 10px 10px 40px;
+      }
 
-.input-container1 input::placeholder {
-    color:#2f2d77c8;
-    font-family: "Bigelow Rules", serif;
-    font-size: 25px;
-}
+ .input-container2 input {
+  position: relative;
+  border-radius: 40px;
+        width: 85%;
+        margin: 20px;
+        padding-left: 40px;
+        font-size: 15px
+        box-sizing border-box;
+        outline: none;
+        font-size: 20px;
+        padding: 10px 10px 10px 40px;
+      }
+      .input-container1 input::placeholder {
+        color:#2f2d77c8;
+        font-family: "Bigelow Rules", serif;
+        font-size: 25px;
+      }
+      .input-container2 input::placeholder {
+        color:#2f2d77d5;
+        font-family: "Bigelow Rules", serif;
+        font-size: 25px;
+      }
 
-  .input-container1 input::placeholder {
-    color:#2f2d77d5;
-    font-family: "Bigelow Rules", serif;
-    font-size: 25px;
-  }
+      .input-container1 i {
+        color: #fff;
+      }
+      .input-container2 i {
+        color: #fff;
+      }
 
-  .input-container1 i {
-    color: #fff;
-  }
-
-.remember-me {
-      font-family: Poiret One, system-ui;
+      .remember-me {
+        font-family: Poiret One, system-ui;
       font-size: 18px;
         display: flex;
         margin: 20px;
@@ -198,11 +203,7 @@ form {
       display: none;
       cursor: pointer;
     }
-    .aces a{
-      
-      text-decoration: none;
-      color: #fff;
-    }
+    
     .mobile-menu div {
       width: 32px;
       height: 2px;
@@ -210,23 +211,3 @@ form {
       margin: 8px;
       transition: 0.3s;
     }
-@media (max-width: 1080px){
-   .container{
-    max-width: 350px;
-    display: flex;
-  }
-  #loginForm{
-    max-width: 350px;
-  }
-  
-  .input-container1 i {
-    display: none;
-  }
- .topo2{  
-    display: flex;
-  }
-#img_logo{
-    position: absolute;
-    right: none;
-    }
-}
