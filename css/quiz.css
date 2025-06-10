@@ -9,7 +9,7 @@
 }
 
 body {
-  background: url('/img/plaanodefundo/planodefundo.jpg');
+  background: url('../img/plaanodefundo/planodefundo.jpg');
   background-size: cover;
   background-color: black;
   background-position: center;
