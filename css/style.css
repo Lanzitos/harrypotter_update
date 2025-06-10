@@ -79,3 +79,8 @@ h2 {
     max-height: 500px;
   }
 }
+#span {
+  color: #b1a526;
+  font-family: 'Henny Penny';
+  font-size: 22px;
+}
