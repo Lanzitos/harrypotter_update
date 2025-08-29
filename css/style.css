@@ -5,17 +5,27 @@
   padding: 0;
 }
 
+<<<<<<< HEAD
   a {
     color: #b1a526;
     text-decoration: none;
     transition: 0.3s;
     }
  
+=======
+body {
+  background: linear-gradient(rgba(99, 22, 6, 0.212), rgba(100, 53, 39, 0.5)), url('../img/plaanodefundo/estacaonovemeio.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Bigelow Rules', serif;
+}
+>>>>>>> 9177fbc4549520cdce0950138d9a050a45e501e5
 
   a:hover {
     opacity: 0.7;
     text-decoration: underline;
   }
+<<<<<<< HEAD
 
   .logo {
     font-size: 24px;
@@ -239,4 +249,11 @@
     padding: 0 20px;
     position: relative;
     z-index: 10;
+=======
+}
+#span {
+  color: #b1a526;
+  font-family: 'Henny Penny';
+  font-size: 22px;
+>>>>>>> 9177fbc4549520cdce0950138d9a050a45e501e5
 }
