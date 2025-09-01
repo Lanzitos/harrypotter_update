@@ -9,7 +9,6 @@ document.getElementById("registerForm").addEventListener("submit", function (eve
   const confirmeSenha = document.getElementById("confirmeSenha").value;
 
   
-<<<<<<< HEAD
     if (localStorage.getItem(Email)) {
       document.getElementById("span").innerText = "E-mail já cadastrado.";
       return;
@@ -32,13 +31,12 @@ document.getElementById("registerForm").addEventListener("submit", function (eve
      
   });
   
-=======
+
   if (localStorage.getItem(Email)) {
     document.getElementById("span").innerText = "E-mail já cadastrado.";
     return;
   }
 
->>>>>>> 9177fbc4549520cdce0950138d9a050a45e501e5
   
   if (Senha !== confirmeSenha) {
     document.getElementById("senhaid").innerText = "As senhas não coincidem.";
@@ -57,4 +55,4 @@ document.getElementById("registerForm").addEventListener("submit", function (eve
 
   
   window.location.href = "login.html";
-});
+;
